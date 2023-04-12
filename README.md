@@ -37,7 +37,7 @@
 
 The entire project was built with only HTML5, CSS3, JavaScript AND Webpack.
 
-# 📖 [To Do List] <a name="about-project"></a>
+# 📖 [The leaderboard] <a name="about-project"></a>
 
 In this project:
 
