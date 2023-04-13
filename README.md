@@ -87,7 +87,7 @@ To get a local copy up and running,clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **IPA Calls**
+- **API Calls**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
