@@ -1,6 +1,32 @@
 .content-wrqpper {
   display: flex;
-  gap: 50px;
+  gap: 100px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.leader-title {
+  display: flex;
+  gap: 30px;
+}
+
+.leader-title h3 {
+  margin-top: initial;
+  margin-bottom: initial;
+}
+
+#leader {
+  padding-left: initial;
+  border: 2px solid black;
+}
+
+#leader li {
+  list-style: none;
 }
 
 .add-score {
@@ -8,11 +34,28 @@
   flex-direction: column;
 }
 
+.add-score h3 {
+  margin: initial;
+}
+
 .add-score form {
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
+  gap: 15px;
+  text-align: right;
+  width: 100%;
 }
 
-#leader li {
-  list-style: none;
+#submit {
+  width: 100%;
+  display: block;
+}
+
+#submit button {
+  width: 40%;
+}
+
+.color {
+  background-color: darkgrey;
 }

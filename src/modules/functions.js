@@ -40,9 +40,17 @@ export const refresher = async (where) => {
   );
   const messageJson = await data.text();
   const message = await JSON.parse(messageJson);
+  let i = 0;
+  let colorClass = '';
   message.result.forEach((element) => {
+    i += 1;
+    if (i % 2 === 0) {
+      colorClass = 'color';
+    } else {
+      colorClass = '';
+    }
     const { score, user } = element;
-    innerHtml += `<li> ${user} : ${score} </li>`;
+    innerHtml += `<li class ="${colorClass}"> ${user} : ${score} </li>`;
   });
 
   where.innerHTML = innerHtml;
