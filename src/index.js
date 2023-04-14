@@ -8,6 +8,7 @@ btnSbumit.addEventListener('submit', (e) => {
   e.preventDefault();
   addScore(scores);
 });
+refresher(scores);
 refresherBtn.addEventListener('click', () => {
   refresher(scores);
 });
